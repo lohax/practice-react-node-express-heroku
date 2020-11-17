@@ -14,7 +14,7 @@ app.use(express.static('client/build')) // permet de dire a express que l'on veu
 
 app.get('/api/youtube', (_, res) => {
     res.send({
-        msg: 'Bonjour les hardcoders !'
+        msg: 'Hello world !'
     })
 })
 
